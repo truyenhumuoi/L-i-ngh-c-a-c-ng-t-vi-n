@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Mở link</title>
+  <style>
+    body {
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+      font-family:sans-serif;
+      text-align:center;
+      padding:20px;
+    }
+    .notice {
+      margin-bottom:20px;
+      font-size:16px;
+      color:#d9534f;
+      font-weight:bold;
+    }
+    button {
+      padding:15px 25px;
+      font-size:16px;
+      cursor:pointer;
+      border:none;
+      background:#ff5722;
+      color:white;
+      border-radius:8px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="notice">
+  ⚠️ Khi ấn vào link, sẽ mở đồng thời Tab Truyện và Tab Shopee
+Bạn chịu khó chuyển về Tab cũ là xem Truyện ngay á  👉👈
+</div>
+
+<button onclick="openLinks()">Khi đã đổi sang trình duyệt thì Ấn vào đây nhaaa</button>
+
+<script>
+function openLinks() {
+  window.open("https://s.shopee.vn/1Vv94kFlr5", "_blank", "noopener,noreferrer");
+  window.location.href = "https://docs.google.com/document/d/1-mX89d0qfOikrzh48IK_5NOwRLdjLOBrmXLGPGQWDAY/edit?usp=sharing";
+}
+</script>
+
+</body>
+</html>
